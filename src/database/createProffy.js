@@ -33,7 +33,6 @@ module.exports = async  function(db, { proffyValue, classValue, classScheduleVal
 
     // inserir dados na tebela class_schedule
     const insertAllClassScheduleValues = classScheduleValues.map( ( classScheduleValue ) => {
-        console.log('opa')
         return db.run(`
             INSERT INTO classes_schedule (
                 class_id,
