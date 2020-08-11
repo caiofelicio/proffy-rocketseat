@@ -1,0 +1,27 @@
+{
+  "name": "nlw",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2",
+    "sqlite-async": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "description": "O Proffy é uma plataforma de estudos online, onde as pessoas podem procurar professores ou se cadastrarem para dar aulas.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiofelicio/nlw-rocketseat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiofelicio/nlw-rocketseat/issues"
+  },
+  "homepage": "https://github.com/caiofelicio/nlw-rocketseat#readme"
+}
